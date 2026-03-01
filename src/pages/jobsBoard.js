@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
 import "../styles/RentalSystem.css";
-import '../styles/jobsBoard.css';
 import Navbar from '../components/Navbar/Navbar';
 import { BACKEND_URL } from '../config';
 import rentalImage from "../components/images/Job_posting.png";
